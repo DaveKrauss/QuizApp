@@ -21,6 +21,9 @@ h1 {
   text-align: center;
   width: 70%;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .card_bookmark {
@@ -32,6 +35,17 @@ h1 {
 }
 
 .card_answer {
+  background-color: lightblue;
+  border: solid black;
+  border-radius: 2rem;
+  width: 25%;
+}
+
+.card_answer:hover {
+  background-color: white;
+  border: solid black;
+  border-radius: 2rem;
+  width: 25%;
 }
 
 .image {
