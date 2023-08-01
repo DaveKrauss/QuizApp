@@ -24,13 +24,14 @@ h1 {
 }
 
 .card_bookmark {
-  background-color: white;
   font-size: 2em;
-  border: 2px solid black;
-  border-radius: 40%;
   position: absolute;
-  top: -15px;
-  right: 5px;
+  top: -20px;
+  right: 30px;
+  width: 8%;
+}
+
+.card_answer {
 }
 
 .image {
